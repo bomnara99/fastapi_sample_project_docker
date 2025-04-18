@@ -1,6 +1,6 @@
 from fastapi import FastAPI, Depends
 from sqlalchemy.orm import Session
-from app import crud
+from app.crud import crud
 from app.schema import schemas
 from app.model import models
 from app.core import database

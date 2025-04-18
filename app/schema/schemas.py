@@ -5,6 +5,6 @@ class UserCreate(BaseModel):
     email: str
 
 class User(UserCreate):
-    id: int
+    seq: int
     class Config:
         orm_mode = True
